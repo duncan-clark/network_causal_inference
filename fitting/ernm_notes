@@ -1,0 +1,19 @@
+Notes on Using the ERNM package:
+
+0) For reproducibility use the forked ERNM package : https://github.com/duncan-clark/ernm/tree/updates_bayesian_causal
+
+1) R v2 -> R v3 has some difficulty with .C in the .onload for lazy loading in zzz.R file. Fixed by changing to .Call - not exactly sure why
+
+2) For "logistic" statistic, does not accept formulas well - need to enter as list e.g. logistic("smoke","sex"), only works with one variable regressed on another variable, intercept needs to allowed
+for with the nodeCount statistic.
+
+3) Need to have any random covariates on the RHS of a | in the formula
+
+4) Need to have any logistic regression variables as character vertex variables so that they count as discrete
+
+5) ERNM does not have a summary method? 
+
+6) ERNM logistic function regresses the y variable against and x variable, both must be factors, the first category of the x variables is used,
+   so if y is outcome and x is treatment, the regression is on NOT receiving treatment! ERNM logistic neighbor function regresses y variable on number of neighbors that have the x variable, is analogous the the logistic formulation. NEED TO BE CAREFUL WITH THIS!  Added logisticNeighborsTopLevel, for a logistic neighbors function that counts the top level as a "1" for the x variable.
+   
+
