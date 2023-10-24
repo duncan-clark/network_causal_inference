@@ -1,3 +1,5 @@
+<img src="man/Figures/sspse_hl.png" align="left" width="250" height="250" style="padding:30px;" alt="RDS network"/>
+
 # Causal Inference over Stochastic Networks
 
 This is the software and data used for the paper:
@@ -7,7 +9,7 @@ Mark S. Handcock.
 
 It has been submitted to the *Journal of the Royal Statistical Society*, Series A.
 
-##Summary
+## Summary
 
 Claiming causal inferences in network settings necessitates careful consideration
 of the often complex dependency between outcomes for actors. Of particular importance are
