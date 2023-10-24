@@ -1,4 +1,4 @@
-<img src="data/CISN_hl.png" align="left" width="250" height="250" style="padding:30px;" alt="Causal Network"/>
+<img src="data/CISN_hl.png" align="left" width="250" height="280" style="padding:30px;" alt="Causal Network"/>
 
 # Causal Inference over Stochastic Networks
 
