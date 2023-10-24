@@ -28,3 +28,49 @@ context of adolescent friendship networks.
 *Keywords*: Causality, Social Networks, Network models, Spillover, Contagion, Interference,
 Gibbs measures
 
+# Contents
+
+## fitting
+
+This constains the main code for fitting real data, the simulation study and assessing the goodness-of-fit.
+
+### Add\_health\_fitting.R
+
+Start with 
+
+`fitting/Add_health_fitting.R`
+
+First, read `ernm_notes` for isses with the modified and extended version of the `ernm` package and other useful information.
+
+### GOF.R
+
+This script carries out the triad census and makes the GOF plots contained in the paper
+
+### ernm_MPLE.R
+
+This script does ERNM Pseudo likelihood estimation
+
+### sim_study.R
+
+This script is the basis for the reproducible example of the sim study for the paper.
+For fuller sim study see `sim_study_5.R`
+
+## data
+
+This contains the various data sources
+
+## functions
+
+This contains the R functions called by the fitting functions.
+
+### fire.R
+
+This is the Bayesian ERNM model fitting code
+
+### util.R
+
+These are utility functions called by other functions
+
+## results
+
+This contains R objects containing the actual results of the fits in the paper. There are mainly here to allow you to check that the code you have run is running correctly.
