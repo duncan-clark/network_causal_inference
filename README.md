@@ -36,7 +36,7 @@ Gibbs measures
 
 This contains the main code for fitting real data, the simulation study and assessing the goodness-of-fit. The main files are listed below.
 
-### `Add\_health\_fitting.R`
+### Add\_health\_fitting.R
 
 Start with 
 
