@@ -5,9 +5,7 @@
 This is the software and data used for the paper:
 
 [Causal Inference over Stochastic Networks](https://doi.org/10.1093/jrsssa/qnae001), by Duncan A. Clark and
-Mark S. Handcock.
-
-It is to appear in the *Journal of the Royal Statistical Society*, Series A.
+Mark S. Handcock, the *Journal of the Royal Statistical Society*, Series A, Jan 2024.
 
 ## Summary
 
